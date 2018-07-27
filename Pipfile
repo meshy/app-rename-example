@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "<1.9"
+django-environ = "*"
+"psycopg2" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
