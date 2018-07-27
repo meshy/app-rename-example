@@ -21,6 +21,7 @@ DATABASES = {
 INSTALLED_APPS = (
     'core',
 
+    'orders',
     'shop',
 
     'django.contrib.admin',
