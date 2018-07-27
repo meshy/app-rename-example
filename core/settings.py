@@ -20,6 +20,9 @@ DATABASES = {
 
 INSTALLED_APPS = (
     'core',
+
+    'shop',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
