@@ -23,7 +23,7 @@ INSTALLED_APPS = (
 
     'orders',
     'reviews',
-    'shop',
+    'shop.apps.ShopConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
