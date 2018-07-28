@@ -22,6 +22,7 @@ INSTALLED_APPS = (
     'core',
 
     'orders',
+    'reviews',
     'shop',
 
     'django.contrib.admin',
