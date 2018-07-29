@@ -22,9 +22,9 @@ Steps:
      WHERE app_label = 'shop';
     ```
   - [x] Ensure no migrations are required (checks previous step).
-- [ ] Rename tables:
-  - [ ] Remove "custom" `db_table`.
-  - [ ] Run `makemigrations` so django can rename the table "to the default".
+- [x] Rename tables:
+  - [x] Remove "custom" `db_table`.
+  - [x] Run `makemigrations` so django can rename the table "to the default".
 - [ ] Move the files:
   - [ ] Rename module directory.
   - [ ] Fix imports.
