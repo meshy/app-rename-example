@@ -2,12 +2,12 @@
 
 Steps:
 
-- [ ] Prepare existing setup for move:
+- [x] Prepare existing setup for move:
   - [x] Create an app config (set `name` and `label` to defaults).
   - [x] Add the app config to `INSTALLED_APPS`.
-  - [ ] On all models, explicitly set `db_table` to the current value.
-  - [ ] Doctor migrations so that `db_table` was "always" explicitly defined.
-  - [ ] Ensure no migrations are required (checks previous step).
+  - [x] On all models, explicitly set `db_table` to the current value.
+  - [x] Doctor migrations so that `db_table` was "always" explicitly defined.
+  - [x] Ensure no migrations are required (checks previous step).
 - [ ] Change app label:
   - [ ] Set `label` in app config to new value (catalogue).
   - [ ] Update migrations and foreign keys to reference new app label.

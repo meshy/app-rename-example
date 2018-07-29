@@ -17,6 +17,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=255)),
             ],
             options={
+                'db_table': 'shop_category',
                 'verbose_name_plural': 'categories',
             },
         ),
@@ -27,5 +28,8 @@ class Migration(migrations.Migration):
                 ('sku', models.CharField(max_length=255)),
                 ('category', models.ForeignKey(to='shop.Category')),
             ],
+            options={
+                'db_table': 'shop_product',
+            },
         ),
     ]
