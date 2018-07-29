@@ -25,11 +25,11 @@ Steps:
 - [x] Rename tables:
   - [x] Remove "custom" `db_table`.
   - [x] Run `makemigrations` so django can rename the table "to the default".
-- [ ] Move the files:
-  - [ ] Rename module directory.
-  - [ ] Fix imports.
-  - [ ] Update app config's `name`.
-  - [ ] Update where `INSTALLED_APPS` references the app config.
+- [x] Move the files:
+  - [x] Rename module directory.
+  - [x] Fix imports.
+  - [x] Update app config's `name`.
+  - [x] Update where `INSTALLED_APPS` references the app config.
 - [ ] Tidy up:
   - [ ] Remove custom app config if it's no longer required.
   - [ ] If app config gone, don't forget to also remove it from `INSTALLED_APPS`.
