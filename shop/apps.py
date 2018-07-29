@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class ShopConfig(AppConfig):
-    label = 'shop'
+    label = 'catalogue'
     name = 'shop'

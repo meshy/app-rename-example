@@ -4,5 +4,5 @@ from django.db import models
 
 class Order(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL)
-    product = models.ForeignKey('shop.Product')
+    product = models.ForeignKey('catalogue.Product')
     quantity = models.PositiveIntegerField()

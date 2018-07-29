@@ -8,10 +8,10 @@ Steps:
   - [x] On all models, explicitly set `db_table` to the current value.
   - [x] Doctor migrations so that `db_table` was "always" explicitly defined.
   - [x] Ensure no migrations are required (checks previous step).
-- [ ] Change app label:
-  - [ ] Set `label` in app config to new value (catalogue).
-  - [ ] Update migrations and foreign keys to reference new app label.
-  - [ ] Run custom SQL to fix migrations and `content_types` app.
+- [x] Change app label:
+  - [x] Set `label` in app config to new value (catalogue).
+  - [x] Update migrations and foreign keys to reference new app label.
+  - [x] Run custom SQL to fix migrations and `content_types` app.
     ```sql
     UPDATE django_migrations
        SET app = 'catalogue'
@@ -21,7 +21,7 @@ Steps:
        SET app_label = 'catalogue'
      WHERE app_label = 'shop';
     ```
-  - [ ] Ensure no migrations are required (checks previous step).
+  - [x] Ensure no migrations are required (checks previous step).
 - [ ] Rename tables:
   - [ ] Remove "custom" `db_table`.
   - [ ] Run `makemigrations` so django can rename the table "to the default".

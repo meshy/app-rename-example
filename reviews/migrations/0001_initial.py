@@ -9,7 +9,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('shop', '0001_initial'),
+        ('catalogue', '0001_initial'),
     ]
 
     operations = [
@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(default='', max_length=255, blank=True)),
                 ('comment', models.TextField(default='', blank=True)),
                 ('rating', models.IntegerField(choices=[(1, '1 out of 5'), (2, '2 out of 5'), (3, '3 out of 5'), (4, '4 out of 5'), (5, '5 out of 5')])),
-                ('product', models.ForeignKey(to='shop.Product')),
+                ('product', models.ForeignKey(to='catalogue.Product')),
                 ('user', models.ForeignKey(to=settings.AUTH_USER_MODEL)),
             ],
         ),
