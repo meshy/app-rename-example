@@ -1,5 +1,9 @@
 # Rename app from shop to catalogue
 
+This repo shows how you can rename a django app.
+
+Read through the commits to see how the following steps were completed.
+
 Steps:
 
 - [x] Prepare existing setup for move:
