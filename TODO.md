@@ -30,6 +30,6 @@ Steps:
   - [x] Fix imports.
   - [x] Update app config's `name`.
   - [x] Update where `INSTALLED_APPS` references the app config.
-- [ ] Tidy up:
-  - [ ] Remove custom app config if it's no longer required.
-  - [ ] If app config gone, don't forget to also remove it from `INSTALLED_APPS`.
+- [x] Tidy up:
+  - [x] Remove custom app config if it's no longer required.
+  - [x] If app config gone, don't forget to also remove it from `INSTALLED_APPS`.

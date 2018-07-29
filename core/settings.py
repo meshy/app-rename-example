@@ -21,7 +21,7 @@ DATABASES = {
 INSTALLED_APPS = (
     'core',
 
-    'catalogue.apps.ShopConfig',
+    'catalogue',
     'orders',
     'reviews',
 
